@@ -1,14 +1,16 @@
 import React from 'react';
 
 import './App.css';
-import Chat from './components/chat'
+//import Chat from './components/Chat'
+//import Menu from './components/Menu'
+import Home from './views/Home'
+//import '../css/Home.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <Chat />
-      </header>
+
+      <Home />
     </div>
   );
 }
